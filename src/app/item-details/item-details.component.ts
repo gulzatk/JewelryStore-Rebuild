@@ -1,4 +1,4 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { Item } from '../models/item.model';
 
 @Component({
@@ -12,5 +12,9 @@ export class ItemDetailsComponent {
   @Input() public price: number;
   @Input() public metal: string;
   @Input() public image: string;
+
+  selectedItem = null;
+
+  
 
 }

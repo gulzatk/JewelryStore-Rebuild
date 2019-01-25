@@ -9,4 +9,8 @@ import { Item } from '../models/item.model';
 export class ItemListComponent  {
  @Input() childItemList: Item[];
 
+ displayDetails(item) {
+  item.display = ! item.display
+}
+
 }
