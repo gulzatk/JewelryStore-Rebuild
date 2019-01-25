@@ -5,13 +5,15 @@ import { AppComponent } from './app.component';
 import { CategoryListComponent } from './category-list/category-list.component';
 import { ItemListComponent } from './item-list/item-list.component';
 import { CartComponent } from './cart/cart.component';
+import { ItemDetailsComponent } from './item-details/item-details.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CategoryListComponent,
     ItemListComponent,
-    CartComponent
+    CartComponent,
+    ItemDetailsComponent
   ],
   imports: [
     BrowserModule

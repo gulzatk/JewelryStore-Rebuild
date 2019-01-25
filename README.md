@@ -6,7 +6,7 @@
 
 ## Description
 
-This is a website rebuild of Zales the diamond store using Angular.
+This is a website rebuild of Zales the diamond store using Angular. Only front end.
 
 ## Specifications
 

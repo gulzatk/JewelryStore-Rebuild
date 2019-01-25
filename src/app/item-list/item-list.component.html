@@ -1,3 +1,16 @@
+<!-- <table class="table table-bordered"><thead><tr>description</tr><tr>price</tr><tr>metal</tr><tr>image</tr>
+<tbody><tr *ngFor="let item of childItemList"><td {{item.description}}></td> <td {{item.price}}></td> <td {{item.metal}}></td><td {{item.image}}></td></tr>
+
+</tbody>
+
 <ul>
-  <li *ngFor="let item of childItemList">{{item.description}} </li>
-</ul>
+
+  <div > </div>
+
+</ul> -->
+
+
+<app-item-details *ngFor="let item of masterItemList"
+          [description]="item.description"
+          [price]="item.price"
+></app-item-details>

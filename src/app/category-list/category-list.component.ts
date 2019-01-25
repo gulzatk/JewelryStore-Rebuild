@@ -9,6 +9,7 @@ import { Category } from '../models/category.model';
 export class CategoryListComponent  {
  @Input() childCategoryList: Category[];
 
+
 // masterCategoryList: Category[] = [
 //   new Category('Engagement&Wedding'),
 //   new Category('Rings'),
