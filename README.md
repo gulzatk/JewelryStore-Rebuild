@@ -18,11 +18,11 @@ This is a website rebuild of Zales the diamond store using Angular. Only front e
 
 4. The user can delete an item from the shopping cart
 
-5. The user can oreder items.
+5. The user can order items.
 
 ## Setup/Installation Requirements
 
-1. Clone this repository: 
+1. Clone this repository: https://github.com/gulzatk/JewelryStore-Rebuild.git
 2. Open file in a terminal
 3. Type $npm install to install all packages.
 4. Type $ng serve to compile the progect.
