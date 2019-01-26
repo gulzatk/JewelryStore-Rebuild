@@ -8,8 +8,8 @@ import { Item } from './models/item.model';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Zales';
-  subtitle = 'diamond store!'
+  title = 'ZALES';
+  subtitle = 'THE DIAMOND STORE'
 
   masterCategoryList: Category[] = [
     new Category('Engagement&Wedding'),
