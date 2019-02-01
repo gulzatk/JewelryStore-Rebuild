@@ -18,5 +18,7 @@ export class ItemListComponent implements OnInit {
     this.items = this.itemService.getItems();
   }
 
-
+  goToDetailPage(item) {
+    this.router.navigate(['items', item.$key]);
+  }
 }

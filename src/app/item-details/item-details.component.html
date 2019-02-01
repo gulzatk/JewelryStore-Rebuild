@@ -1,1 +1,10 @@
+<div class="details">
 
+    <img src="{{itemToDisplay?.image}}">
+    <h3>{{itemToDisplay?.category}}</h3>
+    <h3>{{itemToDisplay?.description}}</h3>
+    <h3>{{itemToDisplay?.price}}</h3>
+    <p>{{itemToDisplay?.details}}</p>
+    <hr>
+    <button (click)="addToCart(item)" class="btn btn-danger">Add To Cart</button>
+</div>

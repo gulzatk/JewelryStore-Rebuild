@@ -20,4 +20,7 @@ export class ItemService {
   getItems() {
     return this.items;
   }
+  getItemById(itemId: string) {
+return this.database.object('items/' + itemId)
+  }
 }

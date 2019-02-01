@@ -76,3 +76,9 @@ h2 {
     font-size: 15px;
     text-align: center;
 }
+.search {
+    float: right;
+}
+.navbar navbar-expand-lg navbar-light bg-lightr {
+    text-align: center;
+}
