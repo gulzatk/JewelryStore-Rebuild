@@ -2,6 +2,7 @@ import { Component, Input, Output, OnInit, EventEmitter } from '@angular/core';
 import { Item } from '../models/item.model';
 import { ItemService } from '../item.service';
 import { Router } from '@angular/router';
+import { FirebaseListObservable } from 'angularfire2/database';
 
 @Component({
   selector: 'app-item-list',
@@ -9,7 +10,7 @@ import { Router } from '@angular/router';
   styleUrls: ['./item-list.component.css']
 })
 export class ItemListComponent implements OnInit {
-  items: Item[];
+  items: FirebaseListObservable<any[]>;
 
   constructor(private router: Router, private itemService: ItemService) { }
 
@@ -17,8 +18,5 @@ export class ItemListComponent implements OnInit {
     this.items = this.itemService.getItems();
   }
 
-  displayDetails(item) {
-    item.display = !item.display
-  }
 
 }
