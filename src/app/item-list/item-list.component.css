@@ -1,22 +1,17 @@
-.item-image {
-    font-size: 20%;
-    color: lightgray;
-  }
-  
-  .item-price {
-    font-weight: bold;
-  }
+/* .list-items {
+  display: flex;
 
-  /* .list-items {
-    display: flex;
-  
-    justify-content: center;
-  
-    flex-flow: row wrap;
-    align-content: flex-end;
-  } */
-  
-  .list-item {
-    margin-left: 10px;
-    margin-right: 10px;
-  }
+  justify-content: center;
+
+  flex-flow: row wrap;
+  align-content: flex-end;
+}
+
+.list-item {
+  margin-left: 50px;
+  margin-right: 20px;
+
+} */
+
+
+

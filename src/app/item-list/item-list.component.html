@@ -1,21 +1,17 @@
+<div class='container'>
+  <div class="list-items">
+    <div *ngFor="let item of childItemList" (click)='displayDetails(item)'>
 
-  <div class='container'>
-    <div class="list-items">
-  <div class='list-item' *ngFor="let item of childItemList" (click)='displayDetails(item)'>
-         <div class="item-image">
-           <img [src]='item.image' width="20%">
-           </div>
-           <div id=info *ngIf="item.display">
-          <ul> 
-                <p> {{item.category}}</p>
-                <p>{{item.description}}</p>
-                <p>${{item.price}}</p>
-                
-                <button (click)="addToCart(item)"class="btn btn-danger">Add To Cart</button>
-                <button (click)="showDetails(item)"class="btn btn-primary">Details</button>
-          </ul>
-        </div>
+      <img [src]='item.image' width="10%">
+
+      <div id=info *ngIf="item.display">
+        <p> {{item.category}}</p>
+        <p>{{item.description}}</p>
+        <p>${{item.price}}</p>
+
+        <button (click)="addToCart(item)" class="btn btn-danger">Add To Cart</button>
+        <button (click)="showDetails(item)" class="btn btn-primary">Details</button>
       </div>
-     </div>
     </div>
-
+  </div>
+</div>
