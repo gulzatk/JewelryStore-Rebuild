@@ -4,19 +4,15 @@ import { AngularFireDatabase, FirebaseListObservable } from 'angularfire2/databa
 @Injectable({
   providedIn: 'root'
 })
-export class ItemService {
+export class CategoryService {
 
-  items: FirebaseListObservable<any[]>;
+  categories: FirebaseListObservable<any[]>;
 
   constructor(private database: AngularFireDatabase) {
-    this.items = database.list('items');
+    this.categories = database.list('categories');
   }
 
-  getItems() {
-    return this.items;
-  }
-
-  getItemById(itemId: string) {
-    return this.database.object('items/' + itemId)
+  getCategories() {
+    return this.categories;
   }
 }

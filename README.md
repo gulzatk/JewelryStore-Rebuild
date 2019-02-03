@@ -1,30 +1,28 @@
 # Jewelry Store Website
 
-#### Independent project for Epicodus, 01/25/2019.
+#### Independent project for Epicodus, week 3-4, 01/25/2019, updated 02/01/2019.
 
 ### By Gulzat Karimova
 
 ## Description
 
-This is a website rebuild of Zales the diamond store using Angular. Only front end.
+This is a website rebuild of Zales the diamond store using Angular. 
 
 ## Specifications
 
 1. The user can see list of jewelry categories.
 
-2. The user can see list of jewelry item in the particular categories
-.
-3. The user can add an item to the shopping cart.
+2. The user can see list of jewelry item in the particular categories.
 
-4. The user can delete an item from the shopping cart
-
-5. The user can order items.
+3. The user can order items.
 
 ## Setup/Installation Requirements
 
+1. Webpage is diployed on Firebase: https://jewelry-items-2383d.firebaseapp.com/
 1. Clone this repository: https://github.com/gulzatk/JewelryStore-Rebuild.git
+3. Install Node.js
 2. Open file in a terminal
-3. Type $npm install to install all packages.
+3. Type $npm install to install plagins and dependencies.
 4. Type $ng serve to compile the progect.
 
 ## Support and contact details
@@ -33,10 +31,10 @@ If you have any questions or suggestions please feel free to email me: gulzat.ka
 
 ## Technologies Used
 * VS Code
-* Angular
+* Angular 5
 * TypeScript
-* jasmine
-* Karma
+* Node.js
+* Firebase
 * GitHub
 * HTML
 * CSS

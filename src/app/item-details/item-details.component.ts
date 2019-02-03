@@ -33,6 +33,10 @@ export class ItemDetailsComponent {
     })
   }
 
+  addToCart() {
+
+  }
+
 
 
 }

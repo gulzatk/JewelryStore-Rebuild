@@ -1,10 +1,33 @@
 {
+    "categories": [
+        {
+            "name": "wedding"
+        },
+        {
+            "name": "ring"
+        },
+        {
+            "name": "necklace"
+        },
+        {
+            "name": "earring"
+        },
+        {
+            "name": "bracelet"
+        },
+        {
+            "name": "watch"
+        },
+        {
+            "name": "clearance"
+        }
+    ],
     "items": [
         {
             "description": "Diamond Engagement Ring in 14K White Gold.",
             "price": "$2,699.99",
             "image": "https://www.zales.com/productimages/processed/V-20050174_0_800.jpg",
-            "category": "Engagement&Wedding",
+            "category": "wedding",
             "details": "Classic and elegant, this diamond engagement ring will win her heart - and her hand. Expertly crafted in cool 14K white gold, the eye is drawn to the 1/2 ct. round diamond center stone standing tall in a traditional four-prong setting. Smaller round accent diamonds line the ring's slender shank, completing the design. The perfect look for the sophisticated bride, this engagement ring captivates with 1 ct. t.w. of diamonds and a polished shine.",
             "id": "1"
         },
@@ -12,7 +35,7 @@
             "description": "Diamond Sideways Heart Vintage-Style Stackable Band in 10K Rose Gold",
             "price": "$250",
             "image": "https://www.zales.com/productimages/processed/V-20142387_0_800.jpg",
-            "category": "Ring",
+            "category": "ring",
             "details": "A sweet treat, this darling vintage-style stackable band is on-trend and dazzling. Crafted in precious 10K rose gold, the cute design features six diamonds set in open milgrain-detailed sideways heart frames. It's perfect on its own or paired with other bands. Radiant with 1/8 ct. t.w. of diamonds and a bright polished shine, this romantic style is certain to please.",
             "id": "2"
         },
@@ -20,7 +43,7 @@
             "description": "T.W. Journey Diamond Pendant necklece.",
             "price": "$900",
             "image": "https://www.zales.com/productimages/processed/V-20126802_0_800.jpg",
-            "category": "Necklece",
+            "category": "necklace",
             "details": "Tell your story with the soft shape and sparkle of this timeless diamond journey pendant. Crafted in cool 14K white gold, this meandering design features an 'S' curve of diamonds, reflecting the path of your love. Radiant with 1/2 ct. t.w. of diamonds and a bright polished shine, this pendant suspends along an 18.0-inch cable chain that secures with a spring-ring clasp. Journey Diamond jewelry is designed to celebrate love. Graduated stones represent how love grows stronger over time.",
             "id": "3"
         },
@@ -28,7 +51,7 @@
             "description": "Composite Diamond Flower Stud Earrings",
             "price": "$500",
             "image": "https://www.zales.com/productimages/processed/V-20133259_0_800.jpg",
-            "category": "Earing",
+            "category": "earring",
             "details": "Treat her to an anytime touch of sparkle with these diamond stud earrings. Crafted in cool 10K white gold, each earring is a flower-shaped composite of gleaming diamonds. Radiant with 1/2 ct. t.w. of diamonds and a brilliant buffed luster, these post earrings secure comfortably with friction backs.",
             "id": "4"
         },
@@ -36,7 +59,7 @@
             "description": "Diamond Triple Infinity Knot Bolo Bracelet in Sterling Silver with 14K Gold Plate - 9.5",
             "price": "$260.10",
             "image": "https://www.zales.com/productimages/processed/V-20154378_0_800.jpg",
-            "category": "Bracelet",
+            "category": "bracelet",
             "details": "A forever fashion piece she'll adore, this sparkling diamond infinity link bolo bracelet expresses her sense of style. Crafted in sterling silver with 14K gold plate, this pretty alternating pattern features diamond-lined infinity symbol-shaped knot and open circle links. Radiant with 1/6 ct. t.w. of diamonds and a brilliant buffed luster, this wheat chain bracelet adjusts up to 9.5 inches in length and secures with a bolo clasp and ball ends.",
             "id": "4"
         },
@@ -44,7 +67,7 @@
             "description": "Ladies' Exclusive Bulova Crystal Accent Gold-Tone Watch and Bangle Boxed Set (Model: 98X115)",
             "price": "$318.75",
             "image": "https://www.zales.com/productimages/processed/V-20103343_0_800.jpg",
-            "category": "Watch",
+            "category": "watch",
             "details": "A gift-boxed set she'll adore for its fashion and function, this exclusively ours Bulova watch and bracelet combo includes two coordinating bezel-set crystal-accented and gold-toned stainless steel slip-on bangles for a put-together look. Crafted in gold-toned stainless steel, the watch features a 27.0mm case, mother-of-pearl dial, gold-toned hands, crystal-accent markers and bezel, and second hand. The link bracelet secures with a fold-over clasp. Ensuring accuracy, the Japanese quartz movement keeps you right on time. Water-resistant to 30 meters, this wristwatch includes a three-year limited manufacturer's warranty. We are an authorized Bulova dealer. Please note: Due to a recent redesign by Bulova, the watch you receive may not feature the Bulova tuning fork logo on the dial.",
             "id": "5"
         }

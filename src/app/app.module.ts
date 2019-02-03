@@ -14,6 +14,7 @@ import { ItemService } from './item.service';
 import { masterFirebaseConfig } from './api-keys';
 import { AngularFireModule } from 'angularfire2';
 import { AngularFireDatabaseModule } from 'angularfire2/database';
+import { CategoryService } from './category.service';
 
 export const firebaseConfig = {
   apiKey: masterFirebaseConfig.apiKey,
@@ -41,7 +42,7 @@ export const firebaseConfig = {
     AngularFireModule.initializeApp(firebaseConfig),
     AngularFireDatabaseModule
   ],
-  providers: [ItemService],
+  providers: [ItemService, CategoryService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
